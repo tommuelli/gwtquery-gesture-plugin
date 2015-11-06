@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.googlecode.gwtquery.plugins</groupId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0.1</version>
     <name>Gestures plugin for gQuery</name>
     <artifactId>gestures-plugin</artifactId>
     <packaging>jar</packaging>
@@ -11,7 +11,7 @@
     <properties>
       <maven.compiler.source>1.7</maven.compiler.source>
       <maven.compiler.target>1.7</maven.compiler.target>
-      <gQueryVersion>1.4.4-SNAPSHOT</gQueryVersion>
+      <gQueryVersion>1.4.3</gQueryVersion>
       <gwtversion>2.7.0</gwtversion>
       <skipTests>true</skipTests>
     </properties>
