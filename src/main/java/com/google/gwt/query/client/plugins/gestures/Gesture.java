@@ -701,7 +701,8 @@ public class Gesture extends GQuery {
         _iFingers = _iFingers > 1 ? _iFingers : (_iLastFingers + _iFingers);
       }
 
-      console.log(_eventBase);
+      // performance issue
+      //console.log(_eventBase);
 
       _oObj.set("oLastSwipemove", GQ.create(Move.class).identifier(_eventBase.identifier()).screenX(_eventBase.screenX()).screenY(_eventBase.screenY()).timestamp(Duration.currentTimeMillis()).getDataImpl());
       _oObj.set("oStartTouch", GQ.create(Move.class).identifier(_eventBase.identifier()).screenX(_eventBase.screenX()).screenY(_eventBase.screenY()).timestamp(Duration.currentTimeMillis()).getDataImpl());
